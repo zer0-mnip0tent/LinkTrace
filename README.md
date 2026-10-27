@@ -114,7 +114,7 @@ LinkTrace/
 │   └── evidence_report.sh
 ├── README.md
 ├── .gitignore
-└── linktrace_results/          # Generated output; do not commit
+└── linktrace_results/          
 ```
 
 `linktrace.sh` orchestrates the scan. It sources `lib/dependencies.sh` for tool discovery and dependency checks, then executes `scripts/evidence_report.sh` after crawling. Keep these paths and names consistent with the commands in the main script.
